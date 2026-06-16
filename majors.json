@@ -1,0 +1,1919 @@
+{
+  "majors": [
+    {
+      "major": "AI/ML",
+      "score_field": "ai_ml_score",
+      "description": "Machine learning, deep learning, and data science students who need CUDA GPU compute, high RAM, and Python ecosystem support.",
+      "key_software": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "CUDA/cuDNN",
+        "Jupyter",
+        "Anaconda",
+        "Docker",
+        "Hugging Face"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 16,
+        "gpu": "NVIDIA RTX (8 GB+ VRAM, CUDA preferred)",
+        "storage": "512 GB SSD",
+        "cpu": "8-core modern (Core i7/Ultra 7 / Ryzen 7+)"
+      },
+      "scoring_weights": {
+        "cuda_support": 0.3,
+        "gpu_vram": 0.25,
+        "ram": 0.2,
+        "cpu": 0.25
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 62,
+      "best_per_segment": {
+        "Budget": {
+          "id": 5,
+          "name": "ASUS Vivobook 15 (X1504VA)",
+          "price_inr": 44990,
+          "score": 4.0,
+          "meets_threshold": false
+        },
+        "Mid Range": {
+          "id": 110,
+          "name": "HP Victus 15 (RTX4050)",
+          "price_inr": 73990,
+          "score": 6.5,
+          "meets_threshold": false
+        },
+        "Upper Mid": {
+          "id": 160,
+          "name": "Lenovo LOQ 15i (i7 RTX4060)",
+          "price_inr": 97990,
+          "score": 8.0,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "price_inr": 339990,
+          "score": 9.6,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "brand": "MSI",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.6,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 33,
+          "name": "ASUS ROG Strix Scar 16 (G635) RTX5080",
+          "brand": "ASUS",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.5,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 176,
+          "name": "Lenovo Legion Pro 7i (RTX5080)",
+          "brand": "Lenovo",
+          "price_inr": 329990,
+          "price_segment": "Premium",
+          "score": 9.5,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 130,
+          "name": "HP OMEN 17 (RTX5080)",
+          "brand": "HP",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 32,
+          "name": "ASUS ROG Zephyrus G16 (GU605)",
+          "brand": "ASUS",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 60,
+          "name": "Acer Predator Helios 16 (RTX5070Ti)",
+          "brand": "Acer",
+          "price_inr": 249990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 98,
+          "name": "Dell Alienware m18 R2 (RTX5070Ti)",
+          "brand": "Dell",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 193,
+          "name": "MSI Vector 16 HX (RTX5070Ti)",
+          "brand": "MSI",
+          "price_inr": 269990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 73,
+          "name": "Apple MacBook Pro 16 (M4 Max, 36GB)",
+          "brand": "Apple",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 28,
+          "name": "ASUS ROG Zephyrus G14 (GA403)",
+          "brand": "ASUS",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 30,
+          "name": "ASUS ROG Strix G16 (G614) RTX5070",
+          "brand": "ASUS",
+          "price_inr": 219990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 31,
+          "name": "ASUS ProArt P16 (H7606)",
+          "brand": "ASUS",
+          "price_inr": 259990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 96,
+          "name": "Dell Alienware m16 R2 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 229990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 97,
+          "name": "Dell XPS 16 9640 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 128,
+          "name": "HP OMEN Transcend 14",
+          "brand": "HP",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 175,
+          "name": "Lenovo Legion Pro 5 (RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 209990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 172,
+          "name": "Lenovo Legion Pro 5i (RTX4070)",
+          "brand": "Lenovo",
+          "price_inr": 199990,
+          "price_segment": "Premium",
+          "score": 8.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 129,
+          "name": "HP OMEN 16 (RTX5070)",
+          "brand": "HP",
+          "price_inr": 189990,
+          "price_segment": "Premium",
+          "score": 8.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 170,
+          "name": "Lenovo LOQ 15 (Ultra9 RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 164990,
+          "price_segment": "Premium",
+          "score": 8.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 191,
+          "name": "MSI Stealth 16 AI (RTX5060 OLED)",
+          "brand": "MSI",
+          "price_inr": 174990,
+          "price_segment": "Premium",
+          "score": 8.2,
+          "community_sentiment": "Excellent"
+        }
+      ]
+    },
+    {
+      "major": "Computer Science",
+      "score_field": "coding_score",
+      "description": "Software development, algorithms, data structures, web/app development, and system programming students.",
+      "key_software": [
+        "VS Code",
+        "IntelliJ IDEA",
+        "Git",
+        "Node.js",
+        "Docker",
+        "Linux/WSL",
+        "Python",
+        "Java"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 16,
+        "gpu": "Integrated sufficient; dedicated a bonus",
+        "storage": "512 GB SSD",
+        "cpu": "6-core+ modern"
+      },
+      "scoring_weights": {
+        "cpu": 0.3,
+        "ram": 0.25,
+        "keyboard": 0.2,
+        "battery": 0.25
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 133,
+      "best_per_segment": {
+        "Budget": {
+          "id": 141,
+          "name": "Lenovo IdeaPad Slim 3 (15AMN8)",
+          "price_inr": 43990,
+          "score": 6.3,
+          "meets_threshold": false
+        },
+        "Mid Range": {
+          "id": 201,
+          "name": "Samsung Galaxy Book4 Edge (Snapdragon)",
+          "price_inr": 64990,
+          "score": 8.3,
+          "meets_threshold": true
+        },
+        "Upper Mid": {
+          "id": 135,
+          "name": "Honor MagicBook Pro 16 (Ryzen AI)",
+          "price_inr": 99990,
+          "score": 8.8,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 73,
+          "name": "Apple MacBook Pro 16 (M4 Max, 36GB)",
+          "price_inr": 359990,
+          "score": 9.7,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 73,
+          "name": "Apple MacBook Pro 16 (M4 Max, 36GB)",
+          "brand": "Apple",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 9.7,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 71,
+          "name": "Apple MacBook Pro 14 (M5 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 249990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 29,
+          "name": "ASUS Zenbook Duo (UX8406)",
+          "brand": "ASUS",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 70,
+          "name": "Apple MacBook Pro 14 (M4 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 214990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 72,
+          "name": "Apple MacBook Pro 16 (M4 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 259990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 67,
+          "name": "Apple MacBook Air 15 (M4, 24GB)",
+          "brand": "Apple",
+          "price_inr": 139990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 189,
+          "name": "MSI Prestige 16 AI OLED",
+          "brand": "MSI",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 24,
+          "name": "ASUS Zenbook 14 OLED (UX3407)",
+          "brand": "ASUS",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 27,
+          "name": "ASUS Zenbook S16 (UM5606)",
+          "brand": "ASUS",
+          "price_inr": 154990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 164,
+          "name": "Lenovo Yoga Slim 7i (Lunar Lake)",
+          "brand": "Lenovo",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 135,
+          "name": "Honor MagicBook Pro 16 (Ryzen AI)",
+          "brand": "Honor",
+          "price_inr": 99990,
+          "price_segment": "Upper Mid",
+          "score": 8.8,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 69,
+          "name": "Apple MacBook Pro 14 (M5, 16GB)",
+          "brand": "Apple",
+          "price_inr": 169990,
+          "price_segment": "Premium",
+          "score": 8.7,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 173,
+          "name": "Lenovo ThinkPad X1 Yoga Gen 9",
+          "brand": "Lenovo",
+          "price_inr": 199990,
+          "price_segment": "Premium",
+          "score": 8.7,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 174,
+          "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+          "brand": "Lenovo",
+          "price_inr": 209990,
+          "price_segment": "Premium",
+          "score": 8.7,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 68,
+          "name": "Apple MacBook Pro 14 (M4, 16GB)",
+          "brand": "Apple",
+          "price_inr": 169990,
+          "price_segment": "Premium",
+          "score": 8.6,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 136,
+          "name": "Honor MagicBook Art 14 OLED",
+          "brand": "Honor",
+          "price_inr": 109990,
+          "price_segment": "Upper Mid",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 64,
+          "name": "Apple MacBook Air 13 (M5, 16GB)",
+          "brand": "Apple",
+          "price_inr": 116990,
+          "price_segment": "Upper Mid",
+          "score": 8.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 65,
+          "name": "Apple MacBook Air 13 (M4, 16GB)",
+          "brand": "Apple",
+          "price_inr": 119900,
+          "price_segment": "Upper Mid",
+          "score": 8.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 66,
+          "name": "Apple MacBook Air 15 (M3, 16GB)",
+          "brand": "Apple",
+          "price_inr": 124990,
+          "price_segment": "Premium",
+          "score": 8.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 97,
+          "name": "Dell XPS 16 9640 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 8.4,
+          "community_sentiment": "Good"
+        }
+      ]
+    },
+    {
+      "major": "Mechanical",
+      "score_field": "mechanical_score",
+      "description": "Mechanical engineering students running SolidWorks, ANSYS, CATIA, MATLAB, and CFD simulations.",
+      "key_software": [
+        "SolidWorks",
+        "ANSYS",
+        "CATIA",
+        "AutoCAD",
+        "MATLAB",
+        "Fusion 360"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 16,
+        "gpu": "NVIDIA RTX 3060+ (CUDA, DirectX 12)",
+        "storage": "512 GB SSD",
+        "cpu": "Core i7/Ryzen 7 H-series"
+      },
+      "scoring_weights": {
+        "gpu": 0.4,
+        "cpu": 0.3,
+        "ram": 0.3
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 61,
+      "best_per_segment": {
+        "Budget": {
+          "id": 5,
+          "name": "ASUS Vivobook 15 (X1504VA)",
+          "price_inr": 44990,
+          "score": 5.0,
+          "meets_threshold": false
+        },
+        "Mid Range": {
+          "id": 110,
+          "name": "HP Victus 15 (RTX4050)",
+          "price_inr": 73990,
+          "score": 6.6,
+          "meets_threshold": false
+        },
+        "Upper Mid": {
+          "id": 160,
+          "name": "Lenovo LOQ 15i (i7 RTX4060)",
+          "price_inr": 97990,
+          "score": 8.0,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "price_inr": 339990,
+          "score": 9.6,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "brand": "MSI",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.6,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 33,
+          "name": "ASUS ROG Strix Scar 16 (G635) RTX5080",
+          "brand": "ASUS",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.5,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 176,
+          "name": "Lenovo Legion Pro 7i (RTX5080)",
+          "brand": "Lenovo",
+          "price_inr": 329990,
+          "price_segment": "Premium",
+          "score": 9.5,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 130,
+          "name": "HP OMEN 17 (RTX5080)",
+          "brand": "HP",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 32,
+          "name": "ASUS ROG Zephyrus G16 (GU605)",
+          "brand": "ASUS",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 60,
+          "name": "Acer Predator Helios 16 (RTX5070Ti)",
+          "brand": "Acer",
+          "price_inr": 249990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 98,
+          "name": "Dell Alienware m18 R2 (RTX5070Ti)",
+          "brand": "Dell",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 193,
+          "name": "MSI Vector 16 HX (RTX5070Ti)",
+          "brand": "MSI",
+          "price_inr": 269990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 30,
+          "name": "ASUS ROG Strix G16 (G614) RTX5070",
+          "brand": "ASUS",
+          "price_inr": 219990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 175,
+          "name": "Lenovo Legion Pro 5 (RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 209990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 28,
+          "name": "ASUS ROG Zephyrus G14 (GA403)",
+          "brand": "ASUS",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 31,
+          "name": "ASUS ProArt P16 (H7606)",
+          "brand": "ASUS",
+          "price_inr": 259990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 96,
+          "name": "Dell Alienware m16 R2 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 229990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 97,
+          "name": "Dell XPS 16 9640 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 128,
+          "name": "HP OMEN Transcend 14",
+          "brand": "HP",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 129,
+          "name": "HP OMEN 16 (RTX5070)",
+          "brand": "HP",
+          "price_inr": 189990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 172,
+          "name": "Lenovo Legion Pro 5i (RTX4070)",
+          "brand": "Lenovo",
+          "price_inr": 199990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 170,
+          "name": "Lenovo LOQ 15 (Ultra9 RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 164990,
+          "price_segment": "Premium",
+          "score": 8.8,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 171,
+          "name": "Lenovo Legion 5i (16IRX) RTX5070",
+          "brand": "Lenovo",
+          "price_inr": 174990,
+          "price_segment": "Premium",
+          "score": 8.6,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 191,
+          "name": "MSI Stealth 16 AI (RTX5060 OLED)",
+          "brand": "MSI",
+          "price_inr": 174990,
+          "price_segment": "Premium",
+          "score": 8.4,
+          "community_sentiment": "Excellent"
+        }
+      ]
+    },
+    {
+      "major": "Civil",
+      "score_field": "civil_score",
+      "description": "Civil engineering students using AutoCAD, Revit, STAAD Pro, and GIS software for structural and infrastructure design.",
+      "key_software": [
+        "AutoCAD",
+        "Revit",
+        "STAAD Pro",
+        "SAP2000",
+        "ArcGIS",
+        "SketchUp"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 16,
+        "gpu": "Dedicated GPU preferred for rendering",
+        "storage": "512 GB SSD",
+        "cpu": "Core i5/i7 12th Gen+"
+      },
+      "scoring_weights": {
+        "autocad_capability": 0.4,
+        "gpu": 0.3,
+        "cpu": 0.3
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 64,
+      "best_per_segment": {
+        "Budget": {
+          "id": 5,
+          "name": "ASUS Vivobook 15 (X1504VA)",
+          "price_inr": 44990,
+          "score": 5.1,
+          "meets_threshold": false
+        },
+        "Mid Range": {
+          "id": 110,
+          "name": "HP Victus 15 (RTX4050)",
+          "price_inr": 73990,
+          "score": 6.7,
+          "meets_threshold": false
+        },
+        "Upper Mid": {
+          "id": 56,
+          "name": "Acer Nitro V 16 (Ryzen RTX5060)",
+          "price_inr": 119990,
+          "score": 8.0,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "price_inr": 339990,
+          "score": 9.5,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "brand": "MSI",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.5,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 33,
+          "name": "ASUS ROG Strix Scar 16 (G635) RTX5080",
+          "brand": "ASUS",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 176,
+          "name": "Lenovo Legion Pro 7i (RTX5080)",
+          "brand": "Lenovo",
+          "price_inr": 329990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 32,
+          "name": "ASUS ROG Zephyrus G16 (GU605)",
+          "brand": "ASUS",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 130,
+          "name": "HP OMEN 17 (RTX5080)",
+          "brand": "HP",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 60,
+          "name": "Acer Predator Helios 16 (RTX5070Ti)",
+          "brand": "Acer",
+          "price_inr": 249990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 98,
+          "name": "Dell Alienware m18 R2 (RTX5070Ti)",
+          "brand": "Dell",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 193,
+          "name": "MSI Vector 16 HX (RTX5070Ti)",
+          "brand": "MSI",
+          "price_inr": 269990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 30,
+          "name": "ASUS ROG Strix G16 (G614) RTX5070",
+          "brand": "ASUS",
+          "price_inr": 219990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 175,
+          "name": "Lenovo Legion Pro 5 (RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 209990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 170,
+          "name": "Lenovo LOQ 15 (Ultra9 RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 164990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 28,
+          "name": "ASUS ROG Zephyrus G14 (GA403)",
+          "brand": "ASUS",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 31,
+          "name": "ASUS ProArt P16 (H7606)",
+          "brand": "ASUS",
+          "price_inr": 259990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 96,
+          "name": "Dell Alienware m16 R2 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 229990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 97,
+          "name": "Dell XPS 16 9640 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 128,
+          "name": "HP OMEN Transcend 14",
+          "brand": "HP",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 172,
+          "name": "Lenovo Legion Pro 5i (RTX4070)",
+          "brand": "Lenovo",
+          "price_inr": 199990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 129,
+          "name": "HP OMEN 16 (RTX5070)",
+          "brand": "HP",
+          "price_inr": 189990,
+          "price_segment": "Premium",
+          "score": 8.8,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 192,
+          "name": "MSI Crosshair 16 HX (RTX5070)",
+          "brand": "MSI",
+          "price_inr": 199990,
+          "price_segment": "Premium",
+          "score": 8.8,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 59,
+          "name": "Acer Predator Helios Neo 16 (RTX5070)",
+          "brand": "Acer",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 8.6,
+          "community_sentiment": "Excellent"
+        }
+      ]
+    },
+    {
+      "major": "Electronics",
+      "score_field": "electronics_score",
+      "description": "Electronics and communication engineering students using EDA tools, FPGA synthesis, and embedded systems development.",
+      "key_software": [
+        "MATLAB",
+        "Simulink",
+        "Vivado",
+        "Keil",
+        "Multisim",
+        "LTspice",
+        "KiCad"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 16,
+        "gpu": "Integrated sufficient; CUDA a bonus for Vivado",
+        "storage": "512 GB SSD",
+        "cpu": "Core i5/Ryzen 5 12th Gen+"
+      },
+      "scoring_weights": {
+        "cpu": 0.42,
+        "ram": 0.35,
+        "gpu_capped": 0.23
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 71,
+      "best_per_segment": {
+        "Budget": {
+          "id": 5,
+          "name": "ASUS Vivobook 15 (X1504VA)",
+          "price_inr": 44990,
+          "score": 5.6,
+          "meets_threshold": false
+        },
+        "Mid Range": {
+          "id": 109,
+          "name": "HP OmniBook 14 (Ryzen AI)",
+          "price_inr": 72990,
+          "score": 6.8,
+          "meets_threshold": false
+        },
+        "Upper Mid": {
+          "id": 160,
+          "name": "Lenovo LOQ 15i (i7 RTX4060)",
+          "price_inr": 97990,
+          "score": 8.2,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 30,
+          "name": "ASUS ROG Strix G16 (G614) RTX5070",
+          "price_inr": 219990,
+          "score": 9.2,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 30,
+          "name": "ASUS ROG Strix G16 (G614) RTX5070",
+          "brand": "ASUS",
+          "price_inr": 219990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 32,
+          "name": "ASUS ROG Zephyrus G16 (GU605)",
+          "brand": "ASUS",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 33,
+          "name": "ASUS ROG Strix Scar 16 (G635) RTX5080",
+          "brand": "ASUS",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 60,
+          "name": "Acer Predator Helios 16 (RTX5070Ti)",
+          "brand": "Acer",
+          "price_inr": 249990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 98,
+          "name": "Dell Alienware m18 R2 (RTX5070Ti)",
+          "brand": "Dell",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 175,
+          "name": "Lenovo Legion Pro 5 (RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 209990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 176,
+          "name": "Lenovo Legion Pro 7i (RTX5080)",
+          "brand": "Lenovo",
+          "price_inr": 329990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 193,
+          "name": "MSI Vector 16 HX (RTX5070Ti)",
+          "brand": "MSI",
+          "price_inr": 269990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "brand": "MSI",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 28,
+          "name": "ASUS ROG Zephyrus G14 (GA403)",
+          "brand": "ASUS",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 31,
+          "name": "ASUS ProArt P16 (H7606)",
+          "brand": "ASUS",
+          "price_inr": 259990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 96,
+          "name": "Dell Alienware m16 R2 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 229990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 97,
+          "name": "Dell XPS 16 9640 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 128,
+          "name": "HP OMEN Transcend 14",
+          "brand": "HP",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 130,
+          "name": "HP OMEN 17 (RTX5080)",
+          "brand": "HP",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 172,
+          "name": "Lenovo Legion Pro 5i (RTX4070)",
+          "brand": "Lenovo",
+          "price_inr": 199990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 129,
+          "name": "HP OMEN 16 (RTX5070)",
+          "brand": "HP",
+          "price_inr": 189990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 170,
+          "name": "Lenovo LOQ 15 (Ultra9 RTX5070)",
+          "brand": "Lenovo",
+          "price_inr": 164990,
+          "price_segment": "Premium",
+          "score": 8.8,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 191,
+          "name": "MSI Stealth 16 AI (RTX5060 OLED)",
+          "brand": "MSI",
+          "price_inr": 174990,
+          "price_segment": "Premium",
+          "score": 8.6,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 171,
+          "name": "Lenovo Legion 5i (16IRX) RTX5070",
+          "brand": "Lenovo",
+          "price_inr": 174990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        }
+      ]
+    },
+    {
+      "major": "MBA",
+      "score_field": "mba_score",
+      "description": "MBA and management students needing a premium, portable, professional machine for presentations, Excel, and networking.",
+      "key_software": [
+        "MS Office 365",
+        "Excel",
+        "PowerPoint",
+        "Tableau",
+        "Zoom",
+        "Slack",
+        "Teams"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 16,
+        "gpu": "Integrated sufficient",
+        "storage": "512 GB SSD",
+        "cpu": "Efficient U/P-series or Apple M-series"
+      },
+      "scoring_weights": {
+        "portability": 0.35,
+        "battery": 0.3,
+        "appearance": 0.35
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 89,
+      "best_per_segment": {
+        "Budget": {
+          "id": 199,
+          "name": "Samsung Galaxy Book4 (i3)",
+          "price_inr": 41990,
+          "score": 6.7,
+          "meets_threshold": false
+        },
+        "Mid Range": {
+          "id": 201,
+          "name": "Samsung Galaxy Book4 Edge (Snapdragon)",
+          "price_inr": 64990,
+          "score": 9.4,
+          "meets_threshold": true
+        },
+        "Upper Mid": {
+          "id": 53,
+          "name": "Acer Swift 14 AI (Snapdragon)",
+          "price_inr": 109990,
+          "score": 9.2,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 22,
+          "name": "ASUS Zenbook 14 OLED (UX3405) Lunar",
+          "price_inr": 124990,
+          "score": 9.4,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 22,
+          "name": "ASUS Zenbook 14 OLED (UX3405) Lunar",
+          "brand": "ASUS",
+          "price_inr": 124990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 201,
+          "name": "Samsung Galaxy Book4 Edge (Snapdragon)",
+          "brand": "Samsung",
+          "price_inr": 64990,
+          "price_segment": "Mid Range",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 53,
+          "name": "Acer Swift 14 AI (Snapdragon)",
+          "brand": "Acer",
+          "price_inr": 109990,
+          "price_segment": "Upper Mid",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 61,
+          "name": "Apple MacBook Air 13 (M2, 8GB)",
+          "brand": "Apple",
+          "price_inr": 79990,
+          "price_segment": "Upper Mid",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 62,
+          "name": "Apple MacBook Air 13 (M2, 16GB)",
+          "brand": "Apple",
+          "price_inr": 91990,
+          "price_segment": "Upper Mid",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 63,
+          "name": "Apple MacBook Air 13 (M3, 16GB)",
+          "brand": "Apple",
+          "price_inr": 99990,
+          "price_segment": "Upper Mid",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 64,
+          "name": "Apple MacBook Air 13 (M5, 16GB)",
+          "brand": "Apple",
+          "price_inr": 116990,
+          "price_segment": "Upper Mid",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 65,
+          "name": "Apple MacBook Air 13 (M4, 16GB)",
+          "brand": "Apple",
+          "price_inr": 119900,
+          "price_segment": "Upper Mid",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 66,
+          "name": "Apple MacBook Air 15 (M3, 16GB)",
+          "brand": "Apple",
+          "price_inr": 124990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 67,
+          "name": "Apple MacBook Air 15 (M4, 24GB)",
+          "brand": "Apple",
+          "price_inr": 139990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 68,
+          "name": "Apple MacBook Pro 14 (M4, 16GB)",
+          "brand": "Apple",
+          "price_inr": 169990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 69,
+          "name": "Apple MacBook Pro 14 (M5, 16GB)",
+          "brand": "Apple",
+          "price_inr": 169990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 70,
+          "name": "Apple MacBook Pro 14 (M4 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 214990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 20,
+          "name": "ASUS Zenbook 14 OLED (UX3405)",
+          "brand": "ASUS",
+          "price_inr": 109990,
+          "price_segment": "Upper Mid",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 24,
+          "name": "ASUS Zenbook 14 OLED (UX3407)",
+          "brand": "ASUS",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 89,
+          "name": "Dell XPS 13 9345 (Snapdragon)",
+          "brand": "Dell",
+          "price_inr": 129990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 163,
+          "name": "Lenovo Yoga Slim 7i Aura (Lunar)",
+          "brand": "Lenovo",
+          "price_inr": 119990,
+          "price_segment": "Upper Mid",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 164,
+          "name": "Lenovo Yoga Slim 7i (Lunar Lake)",
+          "brand": "Lenovo",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 206,
+          "name": "Samsung Galaxy Book5 Pro 16 OLED",
+          "brand": "Samsung",
+          "price_inr": 144990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 12,
+          "name": "ASUS Vivobook S 15 (Snapdragon)",
+          "brand": "ASUS",
+          "price_inr": 89990,
+          "price_segment": "Upper Mid",
+          "score": 8.9,
+          "community_sentiment": "Good"
+        }
+      ]
+    },
+    {
+      "major": "Marketing",
+      "score_field": "marketing_score",
+      "description": "Marketing, media studies, and business communication students who need vivid displays for content, portability, and long battery.",
+      "key_software": [
+        "Adobe Photoshop",
+        "Canva",
+        "Google Analytics",
+        "MS Office",
+        "Notion",
+        "Figma"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 8,
+        "gpu": "Integrated sufficient",
+        "storage": "256 GB SSD",
+        "cpu": "Modern U-series"
+      },
+      "scoring_weights": {
+        "display": 0.4,
+        "battery": 0.3,
+        "portability": 0.3
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 100,
+      "best_per_segment": {
+        "Budget": {
+          "id": 199,
+          "name": "Samsung Galaxy Book4 (i3)",
+          "price_inr": 41990,
+          "score": 7.1,
+          "meets_threshold": true
+        },
+        "Mid Range": {
+          "id": 201,
+          "name": "Samsung Galaxy Book4 Edge (Snapdragon)",
+          "price_inr": 64990,
+          "score": 9.7,
+          "meets_threshold": true
+        },
+        "Upper Mid": {
+          "id": 17,
+          "name": "ASUS Vivobook S15 (S5507) Snapdragon",
+          "price_inr": 99990,
+          "score": 9.6,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 22,
+          "name": "ASUS Zenbook 14 OLED (UX3405) Lunar",
+          "price_inr": 124990,
+          "score": 9.4,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 201,
+          "name": "Samsung Galaxy Book4 Edge (Snapdragon)",
+          "brand": "Samsung",
+          "price_inr": 64990,
+          "price_segment": "Mid Range",
+          "score": 9.7,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 17,
+          "name": "ASUS Vivobook S15 (S5507) Snapdragon",
+          "brand": "ASUS",
+          "price_inr": 99990,
+          "price_segment": "Upper Mid",
+          "score": 9.6,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 19,
+          "name": "ASUS Vivobook S15 OLED (S5507)",
+          "brand": "ASUS",
+          "price_inr": 104990,
+          "price_segment": "Upper Mid",
+          "score": 9.6,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 14,
+          "name": "ASUS Vivobook S14 OLED (S5406)",
+          "brand": "ASUS",
+          "price_inr": 94990,
+          "price_segment": "Upper Mid",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 20,
+          "name": "ASUS Zenbook 14 OLED (UX3405)",
+          "brand": "ASUS",
+          "price_inr": 109990,
+          "price_segment": "Upper Mid",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 22,
+          "name": "ASUS Zenbook 14 OLED (UX3405) Lunar",
+          "brand": "ASUS",
+          "price_inr": 124990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 24,
+          "name": "ASUS Zenbook 14 OLED (UX3407)",
+          "brand": "ASUS",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 163,
+          "name": "Lenovo Yoga Slim 7i Aura (Lunar)",
+          "brand": "Lenovo",
+          "price_inr": 119990,
+          "price_segment": "Upper Mid",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 164,
+          "name": "Lenovo Yoga Slim 7i (Lunar Lake)",
+          "brand": "Lenovo",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 189,
+          "name": "MSI Prestige 16 AI OLED",
+          "brand": "MSI",
+          "price_inr": 134990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 206,
+          "name": "Samsung Galaxy Book5 Pro 16 OLED",
+          "brand": "Samsung",
+          "price_inr": 144990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 208,
+          "name": "Samsung Galaxy Book5 Pro 360 OLED",
+          "brand": "Samsung",
+          "price_inr": 164990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 169,
+          "name": "Lenovo Yoga 9i 2-in-1 (Ultra7)",
+          "brand": "Lenovo",
+          "price_inr": 149990,
+          "price_segment": "Premium",
+          "score": 9.3,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 207,
+          "name": "Samsung Galaxy Book4 Pro 16 OLED",
+          "brand": "Samsung",
+          "price_inr": 154990,
+          "price_segment": "Premium",
+          "score": 9.1,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 68,
+          "name": "Apple MacBook Pro 14 (M4, 16GB)",
+          "brand": "Apple",
+          "price_inr": 169990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 69,
+          "name": "Apple MacBook Pro 14 (M5, 16GB)",
+          "brand": "Apple",
+          "price_inr": 169990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 70,
+          "name": "Apple MacBook Pro 14 (M4 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 214990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 113,
+          "name": "HP Pavilion Plus 14 OLED",
+          "brand": "HP",
+          "price_inr": 97990,
+          "price_segment": "Upper Mid",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 125,
+          "name": "HP Spectre x360 14 OLED",
+          "brand": "HP",
+          "price_inr": 164990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 161,
+          "name": "Lenovo Yoga Slim 7 (14APH) OLED",
+          "brand": "Lenovo",
+          "price_inr": 104990,
+          "price_segment": "Upper Mid",
+          "score": 9.0,
+          "community_sentiment": "Excellent"
+        }
+      ]
+    },
+    {
+      "major": "Design",
+      "score_field": "design_score",
+      "description": "UI/UX, graphic design, animation, and visual communication students who need color-accurate, high-resolution displays.",
+      "key_software": [
+        "Adobe Photoshop",
+        "Illustrator",
+        "Figma",
+        "Premiere Pro",
+        "After Effects",
+        "Blender"
+      ],
+      "recommended_min_specs": {
+        "ram_gb": 16,
+        "gpu": "Dedicated preferred (RTX 3060+ or Apple GPU 30-core+)",
+        "storage": "512 GB SSD",
+        "cpu": "Core i7/Ryzen 7 or Apple M-series"
+      },
+      "scoring_weights": {
+        "display": 0.35,
+        "gpu": 0.35,
+        "color_accuracy": 0.3
+      },
+      "threshold": 7.0,
+      "total_qualifying_laptops": 113,
+      "best_per_segment": {
+        "Budget": {
+          "id": 3,
+          "name": "ASUS Vivobook Go 15 (E1504FA)",
+          "price_inr": 37990,
+          "score": 5.6,
+          "meets_threshold": false
+        },
+        "Mid Range": {
+          "id": 45,
+          "name": "Acer Swift Go 14 (Ultra5 OLED)",
+          "price_inr": 69990,
+          "score": 7.6,
+          "meets_threshold": true
+        },
+        "Upper Mid": {
+          "id": 18,
+          "name": "ASUS Vivobook Pro 15 OLED (K6502)",
+          "price_inr": 99990,
+          "score": 8.5,
+          "meets_threshold": true
+        },
+        "Premium": {
+          "id": 33,
+          "name": "ASUS ROG Strix Scar 16 (G635) RTX5080",
+          "price_inr": 339990,
+          "score": 9.6,
+          "meets_threshold": true
+        }
+      },
+      "top_20_laptops": [
+        {
+          "id": 33,
+          "name": "ASUS ROG Strix Scar 16 (G635) RTX5080",
+          "brand": "ASUS",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 9.6,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 32,
+          "name": "ASUS ROG Zephyrus G16 (GU605)",
+          "brand": "ASUS",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 28,
+          "name": "ASUS ROG Zephyrus G14 (GA403)",
+          "brand": "ASUS",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 31,
+          "name": "ASUS ProArt P16 (H7606)",
+          "brand": "ASUS",
+          "price_inr": 259990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 97,
+          "name": "Dell XPS 16 9640 (RTX4070)",
+          "brand": "Dell",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 128,
+          "name": "HP OMEN Transcend 14",
+          "brand": "HP",
+          "price_inr": 184990,
+          "price_segment": "Premium",
+          "score": 9.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 73,
+          "name": "Apple MacBook Pro 16 (M4 Max, 36GB)",
+          "brand": "Apple",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 9.0,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 168,
+          "name": "Lenovo Legion 5i (16IRX) RTX5060 OLED",
+          "brand": "Lenovo",
+          "price_inr": 149990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 191,
+          "name": "MSI Stealth 16 AI (RTX5060 OLED)",
+          "brand": "MSI",
+          "price_inr": 174990,
+          "price_segment": "Premium",
+          "score": 8.9,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 167,
+          "name": "Lenovo Legion Slim 5 (16APH) OLED",
+          "brand": "Lenovo",
+          "price_inr": 139990,
+          "price_segment": "Premium",
+          "score": 8.8,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 71,
+          "name": "Apple MacBook Pro 14 (M5 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 249990,
+          "price_segment": "Premium",
+          "score": 8.7,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 70,
+          "name": "Apple MacBook Pro 14 (M4 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 214990,
+          "price_segment": "Premium",
+          "score": 8.6,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 72,
+          "name": "Apple MacBook Pro 16 (M4 Pro, 24GB)",
+          "brand": "Apple",
+          "price_inr": 259990,
+          "price_segment": "Premium",
+          "score": 8.6,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 18,
+          "name": "ASUS Vivobook Pro 15 OLED (K6502)",
+          "brand": "ASUS",
+          "price_inr": 99990,
+          "price_segment": "Upper Mid",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 54,
+          "name": "Acer Swift X 14 OLED (RTX4050)",
+          "brand": "Acer",
+          "price_inr": 109990,
+          "price_segment": "Upper Mid",
+          "score": 8.5,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 194,
+          "name": "MSI Raider 18 HX (RTX5080)",
+          "brand": "MSI",
+          "price_inr": 339990,
+          "price_segment": "Premium",
+          "score": 8.5,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 130,
+          "name": "HP OMEN 17 (RTX5080)",
+          "brand": "HP",
+          "price_inr": 289990,
+          "price_segment": "Premium",
+          "score": 8.4,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 176,
+          "name": "Lenovo Legion Pro 7i (RTX5080)",
+          "brand": "Lenovo",
+          "price_inr": 329990,
+          "price_segment": "Premium",
+          "score": 8.4,
+          "community_sentiment": "Good"
+        },
+        {
+          "id": 60,
+          "name": "Acer Predator Helios 16 (RTX5070Ti)",
+          "brand": "Acer",
+          "price_inr": 249990,
+          "price_segment": "Premium",
+          "score": 8.2,
+          "community_sentiment": "Excellent"
+        },
+        {
+          "id": 98,
+          "name": "Dell Alienware m18 R2 (RTX5070Ti)",
+          "brand": "Dell",
+          "price_inr": 359990,
+          "price_segment": "Premium",
+          "score": 8.2,
+          "community_sentiment": "Good"
+        }
+      ]
+    }
+  ],
+  "score_scale": "1-10 (higher is better)",
+  "major_fit_threshold": 7.0,
+  "last_verified_date": "2026-06-16"
+}

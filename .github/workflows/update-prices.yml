@@ -1,0 +1,28 @@
+name: Auto Update Laptop Prices
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # Every Monday at 3am UTC (8:30am IST)
+  workflow_dispatch:        # Also allows manual trigger from GitHub Actions tab
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 supabase python-dotenv
+
+      - name: Run price updater
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+        run: python auto_update_prices.py
