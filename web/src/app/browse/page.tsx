@@ -78,7 +78,6 @@ export default async function BrowsePage(props: Props) {
     <main className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
         <h1 className="text-2xl font-black text-[#3A2A30]">Browse Laptops</h1>
-        <p className="text-[#7D6570] text-sm mt-1">208 laptops across 10 brands · India prices 2025–2026</p>
       </div>
 
       <div className="flex gap-8 items-start">
