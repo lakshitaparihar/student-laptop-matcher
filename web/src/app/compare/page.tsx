@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
 import Link from 'next/link'
+import { redirect } from 'next/navigation'
 import { Check, X, GitCompare, LayoutGrid } from 'lucide-react'
 import { createClient } from '@/lib/supabase/server'
 import type { Laptop } from '@/lib/types'
@@ -196,7 +197,10 @@ async function CompareContent({ searchParams }: Props) {
   return <CompareTable laptops={laptops} />
 }
 
-export default function ComparePage(props: Props) {
+export default async function ComparePage(props: Props) {
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  if (!user) redirect('/login?redirect=/compare')
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
       <h1 className="text-2xl font-black text-[#3A2A30] mb-6">Compare Laptops</h1>

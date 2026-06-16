@@ -1,4 +1,5 @@
 import { Suspense } from 'react'
+import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import type { Laptop } from '@/lib/types'
 import FilterSidebar from '@/components/FilterSidebar'
@@ -69,7 +70,10 @@ async function LaptopGrid({ searchParams }: Props) {
   )
 }
 
-export default function BrowsePage(props: Props) {
+export default async function BrowsePage(props: Props) {
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  if (!user) redirect('/login?redirect=/browse')
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">

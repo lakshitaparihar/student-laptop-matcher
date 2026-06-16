@@ -40,23 +40,13 @@ export default function HomePage() {
               Start the Quiz
               <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── CTA strip ── */}
-      <section className="py-16 text-center">
-        <div className="max-w-2xl mx-auto px-4">
-          <div className="glass border border-[#FFE4EC] rounded-3xl p-10 shadow-xl shadow-[#FFD6E0]/30">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-6">
-              <Link
-                href="/browse"
-                className="flex items-center gap-2 bg-[#FFE4EC] text-[#FF5C8D] font-semibold px-6 py-3 rounded-xl hover:bg-[#FFD6E0] transition-colors text-sm"
-              >
-                <LayoutGrid className="w-4 h-4" />
-                Browse All Laptops
-              </Link>
-            </div>
+            <Link
+              href="/browse"
+              className="flex items-center gap-2 bg-white/80 border border-[#FFE4EC] text-[#FF5C8D] font-semibold px-7 py-4 rounded-2xl shadow-md shadow-[#FFD6E0]/40 hover:bg-white hover:-translate-y-1 transition-all duration-200 text-base"
+            >
+              <LayoutGrid className="w-4 h-4" />
+              Browse All
+            </Link>
           </div>
         </div>
       </section>
