@@ -40,7 +40,7 @@ export default function AdminPanel() {
   const [msg, setMsg] = useState('')
   const [isPending, startTransition] = useTransition()
   const [stats, setStats] = useState<{
-    totalVisits: number; visits7d: number; visits30d: number; uniqueUsers: number;
+    totalVisits: number; visits7d: number; visits30d: number; uniqueUsers: number; guestQuizAttempts: number;
     topPages: { page: string; count: number }[];
     recentQuizzes: { major: string; budget: string; top_laptop_name: string | null; top_score: number | null; created_at: string }[];
   } | null>(null)
@@ -232,12 +232,13 @@ export default function AdminPanel() {
       {activeTab === 'analytics' && stats && (
         <div className="max-w-7xl mx-auto space-y-4">
           {/* Stat cards */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
             {[
               { icon: Globe, label: 'Total Visits', value: stats.totalVisits.toLocaleString() },
               { icon: TrendingUp, label: 'Last 7 Days', value: stats.visits7d.toLocaleString() },
               { icon: BarChart3, label: 'Last 30 Days', value: stats.visits30d.toLocaleString() },
               { icon: Users, label: 'Unique Users', value: stats.uniqueUsers.toLocaleString() },
+              { icon: Globe, label: 'Guest Quizzes', value: stats.guestQuizAttempts.toLocaleString() },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="glass border border-[#FFE4EC] rounded-2xl p-4 shadow-sm">
                 <div className="flex items-center gap-2 mb-1">

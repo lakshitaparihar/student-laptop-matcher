@@ -62,12 +62,13 @@ export async function getVisitStats(password: string) {
   const ago7  = new Date(now.getTime() -  7 * 86400000).toISOString()
   const ago30 = new Date(now.getTime() - 30 * 86400000).toISOString()
 
-  const [totalRes, week7Res, month30Res, recent500Res, quizzesRes] = await Promise.all([
+  const [totalRes, week7Res, month30Res, recent500Res, quizzesRes, guestQuizRes] = await Promise.all([
     supabase.from('page_visits').select('*', { count: 'exact', head: true }),
     supabase.from('page_visits').select('*', { count: 'exact', head: true }).gte('created_at', ago7),
     supabase.from('page_visits').select('*', { count: 'exact', head: true }).gte('created_at', ago30),
     supabase.from('page_visits').select('page, user_id').order('created_at', { ascending: false }).limit(500),
     supabase.from('quiz_sessions').select('major, budget, top_laptop_name, top_score, user_id, created_at').order('created_at', { ascending: false }).limit(10),
+    supabase.from('page_visits').select('*', { count: 'exact', head: true }).eq('page', '/results').is('user_id', null),
   ])
 
   const pageCounts: Record<string, number> = {}
@@ -82,11 +83,12 @@ export async function getVisitStats(password: string) {
     .map(([page, count]) => ({ page, count }))
 
   return {
-    totalVisits: totalRes.count ?? 0,
-    visits7d:    week7Res.count ?? 0,
-    visits30d:   month30Res.count ?? 0,
-    uniqueUsers: uniqueIds.size,
+    totalVisits:      totalRes.count ?? 0,
+    visits7d:         week7Res.count ?? 0,
+    visits30d:        month30Res.count ?? 0,
+    uniqueUsers:      uniqueIds.size,
+    guestQuizAttempts: guestQuizRes.count ?? 0,
     topPages,
-    recentQuizzes: quizzesRes.data ?? [],
+    recentQuizzes:    quizzesRes.data ?? [],
   }
 }

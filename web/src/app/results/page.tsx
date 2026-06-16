@@ -7,6 +7,7 @@ import { MAJOR_SCORE_FIELD, SEGMENT_RANGE } from '@/lib/types'
 import { computeMatchScore, MAJOR_ICONS, PRIORITY_LABELS } from '@/lib/utils'
 import LaptopCard from '@/components/LaptopCard'
 import SaveResults from '@/components/SaveResults'
+import GuestResultsWall from '@/components/GuestResultsWall'
 
 interface Props {
   searchParams: Promise<{ major?: string; budget?: string; priorities?: string }>
@@ -136,6 +137,7 @@ async function Results({ searchParams }: Props) {
 export default function ResultsPage(props: Props) {
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
+      <GuestResultsWall />
       <Link
         href="/quiz"
         className="inline-flex items-center gap-1.5 text-sm text-[#7D6570] hover:text-[#3A2A30] mb-6"
