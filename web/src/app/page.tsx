@@ -57,7 +57,6 @@ export default function HomePage() {
                 Browse All Laptops
               </Link>
             </div>
-            <p className="text-[#7D6570]">No sign-up needed.</p>
           </div>
         </div>
       </section>
