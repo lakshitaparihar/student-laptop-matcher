@@ -5,6 +5,7 @@ Scrapes Amazon India + Flipkart for current prices and updates Supabase.
 """
 
 import os, re, time, random
+from urllib.parse import quote_plus
 import requests
 from bs4 import BeautifulSoup
 from supabase import create_client
@@ -12,6 +13,7 @@ from datetime import date, datetime, timedelta
 
 SUPABASE_URL = os.environ["NEXT_PUBLIC_SUPABASE_URL"]
 SUPABASE_KEY = os.environ["NEXT_PUBLIC_SUPABASE_ANON_KEY"]
+SCRAPERAPI_KEY = os.environ["SCRAPERAPI_KEY"]
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 TODAY = date.today().isoformat()
 
@@ -22,15 +24,11 @@ PRICE_SEGMENTS = [
     (999999, "Premium"),
 ]
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "en-IN,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-}
+
+def scraper_get(url: str) -> requests.Response:
+    """Fetch a URL through ScraperAPI (handles IP rotation + bot bypass)."""
+    api_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={quote_plus(url)}&country_code=in"
+    return requests.get(api_url, timeout=60)
 
 
 def get_price_segment(price: int) -> str:
@@ -43,7 +41,7 @@ def get_price_segment(price: int) -> str:
 def scrape_amazon(url: str) -> int | None:
     """Try to extract price from an Amazon India product page."""
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=12)
+        resp = scraper_get(url)
         if resp.status_code != 200:
             return None
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -73,7 +71,7 @@ def scrape_amazon(url: str) -> int | None:
 def scrape_flipkart(url: str) -> int | None:
     """Try to extract price from a Flipkart product page."""
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=12)
+        resp = scraper_get(url)
         if resp.status_code != 200:
             return None
         soup = BeautifulSoup(resp.text, "html.parser")
