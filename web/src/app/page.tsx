@@ -17,7 +17,7 @@ export default function HomePage() {
         <div className="relative max-w-5xl mx-auto px-4 py-28 text-center">
           {/* pill badge */}
           <div className="inline-flex items-center gap-2 bg-white/70 border border-[#FFE4EC] rounded-full px-4 py-1.5 text-sm font-semibold text-[#FF8FAB] mb-8 shadow-sm">
-            208 laptops · 2025–2026 India prices
+            208 laptops · latest India prices
           </div>
 
           <h1 className="text-5xl sm:text-7xl font-black tracking-tight mb-6 leading-[1.05]">
